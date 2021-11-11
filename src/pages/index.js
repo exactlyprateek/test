@@ -10,7 +10,7 @@ const IndexPage = () => {
       {/* <ChakraProvider> */}
  
 
-			<Heading>hello</Heading>
+			<Heading>hello world</Heading>
 			{/* <Button>hello</Button> */}
 			<Button mt="4" onClick={() => setCount(count + 1)}>{count}</Button>
       
