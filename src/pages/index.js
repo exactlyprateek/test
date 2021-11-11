@@ -1,21 +1,21 @@
 import * as React from 'react';
-import { Button } from '@chakra-ui/react';
+import { Button, Heading, Container } from '@chakra-ui/react';
 // styles
 
 // markup
 const IndexPage = () => {
 	const [ count, setCount ] = React.useState(0);
 	return (
-		<div>
+		<Container>
       {/* <ChakraProvider> */}
  
 
-			<div>hello</div>
-			<Button>hello</Button>
-			<button onClick={() => setCount(count + 1)}>{count}</button>
+			<Heading>hello</Heading>
+			{/* <Button>hello</Button> */}
+			<Button mt="4" onClick={() => setCount(count + 1)}>{count}</Button>
       
       {/* </ChakraProvider> */}
-		</div>
+		</Container>
 	);
 };
 
